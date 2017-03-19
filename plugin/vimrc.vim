@@ -120,6 +120,9 @@ set nocompatible
 
   " Show mode in statusbar, not separately.
   set noshowmode
+
+  " Only redraw when necessary.
+  set lazyredraw
 " }}}
 
 if &history < 1000
